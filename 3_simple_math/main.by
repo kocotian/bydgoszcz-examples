@@ -1,0 +1,17 @@
+wykorzystaj "stdio"
+
+miasto bydgoszcz oddaje cyferki:
+	obywatel a przechowuje cyferki;
+	obywatel b przechowuje cyferki;
+	obywatel sum przechowuje cyferki;
+
+	zadzwon printf daj: "ustaw a jako ";
+	zadzwon scanf daj: "%d", adres a;
+	zadzwon printf daj: "ustaw b jako ";
+	zadzwon scanf daj: "%d", adres b;
+
+	ustaw sum jako suma a oraz b
+	zadzwon printf daj: "suma %d oraz %d to %d\n", a, b, sum;
+
+	oddaj 0
+koniec
