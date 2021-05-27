@@ -1,0 +1,9 @@
+wykorzystaj "stdio"
+
+miasto bydgoszcz oddaje cyferki:
+	obywatel greeting przechowuje wskaznik na literki;
+	ustaw greeting jako "Hi"
+	zadzwon printf daj: "%s, world!\n", greeting;
+
+	oddaj 0
+koniec
