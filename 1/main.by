@@ -1,0 +1,5 @@
+wykorzystaj "stdio"
+
+miasto bydgoszcz:
+	zadzwon puts daj: "Hello, world!";
+koniec
