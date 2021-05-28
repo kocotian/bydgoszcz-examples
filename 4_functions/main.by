@@ -1,0 +1,30 @@
+wykorzystaj "stdio"
+
+miasto greetings oddaje zadupie:
+	zadzwon puts daj: "Hello!";
+koniec
+
+miasto square przyjmuje: a przechowuje cyferki; oddaje cyferki:
+	oddaj iloczyn a oraz a
+koniec
+
+miasto bialystok przyjmuje: m przechowuje wskaznik na literki; oddaje zadupie:
+	zadzwon printf daj: "A moje %s to bialystok\n", m;
+koniec
+
+miasto bydgoszcz oddaje cyferki:
+	obywatel input przechowuje cyferki;
+	obywatel output przechowuje cyferki;
+
+	zadzwon greetings;
+	zadzwon bialystok daj: "miasto";
+
+	zadzwon printf daj: "ustaw s jako ";
+	zadzwon scanf daj: "%d", adres input;
+
+	ustaw output jako zadzwon square daj: input;
+
+	zadzwon printf daj: "%d² = %d\n", input, output;
+
+	oddaj 0
+koniec
